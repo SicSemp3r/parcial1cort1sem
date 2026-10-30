@@ -1,0 +1,26 @@
+<html lang="es" style="font: size 50px;" class="hydrated">
+
+    <head>
+        <meta charset="utf-8" />
+        <title> Mu bank</title>
+        <link rel="stylesheet" href="parcial.css">
+    </head>
+
+    <body>
+        <div class="login"> 
+        <h2> Bienvenid@ a tu banca virtual.</h2>
+        <h3> Identificación</h3>
+        <select name="tipo" id="tipo">
+            <option value="CC">CC</option>
+            <option value="TI">TI</option>
+            <option value="CE">CE</option>
+        </select>
+        <input type="text" id="user" placeholder="#" required>
+        <h3> Clave segura</h3>
+        <input type="text" id="clave" placeholder="..." required>
+        <button onclick="ingresar()"> Ingresar</button>
+        <p class="message" id="message"> </p>
+        </div>
+        <script src="mu.js" defer> </script>
+    </body>
+</html>
